@@ -1,0 +1,25 @@
+LinkedQueue<character>queue;
+
+String line = "Hello World";
+for(int i=o; i< ; i++){
+    char c = line.charAt(i);
+    if (c < 'z' && c > 'A') {
+        queue.enqueue(c);
+    }else{
+        if(!queue.isEmpty()) {
+        System.out.println(queue);
+        while(!queue.isEmpty()){    //this could be moved possibly
+            queue.dequeue();        //add the below boolean before if possibly
+        }
+    }
+}
+
+boolean tag = false;
+if(c == '<') {
+    tag = true;
+}else if(c=='>'){
+    tag = false;
+}
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-
+
+reverse()   <---- practiced in class.
